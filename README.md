@@ -1,2 +1,2 @@
-# alura-front-web
+# Curso Alura para Front Web
 Desenvolvimento Front Web
