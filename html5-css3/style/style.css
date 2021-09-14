@@ -1,13 +1,6 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
-}
-.titulo{
-    text-align: center;
-}
-.titulo-principal{
-    padding-left: 20px;
 }
 header{
     background: #BBBB;
@@ -42,36 +35,85 @@ nav a:hover{
     color: blue;
 }
 
-p{
-    margin: 1em;
-    text-align: center;
+.container img{
+    width: 100px;
+    height: 150px;
 }
 
-ul{
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15% ;
-}
-.imagembeneficios {
-    width: 20%;
-}
-.itens {
-    font-style: italic
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
+.produtos li:hover {
+    border-color: #C78C19;
 }
 
-#missao{
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.produto-desricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #FFFF;
+    margin: 20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
     font-size: 20px;
+    margin: 0 0 10px;
 }
-em strong{
-    color: #ff0000; 
+form input{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
 }
-#banner{
-    width: 100%;
-}
-
